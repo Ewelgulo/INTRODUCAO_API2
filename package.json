@@ -4,7 +4,8 @@
   "description": "teste01",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -12,8 +13,9 @@
   },
   "author": "Matheus Moura",
   "license": "MIT",
-   "dependencies": {
-    "express": "^5.1.0"
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
   },
   "type": "module"
 }
