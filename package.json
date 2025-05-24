@@ -1,21 +1,20 @@
 {
-  "name": "pasta2",
+  "name": "teste",
   "version": "1.0.0",
-  "description": "teste01",
-  "main": "index.js",
+  "main": "server.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "ewelgulo"
-  },
-  "author": "Matheus Moura",
-  "license": "MIT",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
   "dependencies": {
-    "express": "^5.1.0",
-    "nodemon": "^3.1.10"
+    "express": "^5.1.0"
   },
-  "type": "module"
+  "devDependencies": {
+    "prisma": "^6.8.2"
+  }
 }
